@@ -5,6 +5,14 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.Sqlite", "Northwind.Common.EntityModels.Sqlite\Northwind.Common.EntityModels.Sqlite.csproj", "{6E5EA3E5-7211-4550-9C48-0A5E9578ADED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.DataContext.Sqlite", "Northwind.Common.DataContext.Sqlite\Northwind.Common.DataContext.Sqlite.csproj", "{72A4B42D-53D6-4D58-B233-33677B8361F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{BF058341-EAEE-4814-8B52-5D6BFAE564E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{E2CBCF03-5F53-4E98-92B0-8769F0010EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.UnitTests", "Northwind.Common.UnitTests\Northwind.Common.UnitTests.csproj", "{ECCF5907-57DE-4208-AD91-D109EE3C069F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{6E5EA3E5-7211-4550-9C48-0A5E9578ADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5EA3E5-7211-4550-9C48-0A5E9578ADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5EA3E5-7211-4550-9C48-0A5E9578ADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A4B42D-53D6-4D58-B233-33677B8361F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A4B42D-53D6-4D58-B233-33677B8361F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A4B42D-53D6-4D58-B233-33677B8361F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A4B42D-53D6-4D58-B233-33677B8361F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF058341-EAEE-4814-8B52-5D6BFAE564E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF058341-EAEE-4814-8B52-5D6BFAE564E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF058341-EAEE-4814-8B52-5D6BFAE564E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF058341-EAEE-4814-8B52-5D6BFAE564E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CBCF03-5F53-4E98-92B0-8769F0010EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CBCF03-5F53-4E98-92B0-8769F0010EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CBCF03-5F53-4E98-92B0-8769F0010EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CBCF03-5F53-4E98-92B0-8769F0010EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCF5907-57DE-4208-AD91-D109EE3C069F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCF5907-57DE-4208-AD91-D109EE3C069F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCF5907-57DE-4208-AD91-D109EE3C069F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCF5907-57DE-4208-AD91-D109EE3C069F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
