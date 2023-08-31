@@ -7,3 +7,12 @@ bin/
 *.vsidx
 *.v2
 .vs/PracticalApps/v17/.suo
+*.suo
+*.dtbcache.v2
+.vs/PracticalApps/v17/.suo
+*.lock
+.vs/PracticalApps/FileContentIndex/read.lock
+.vs/PracticalApps/FileContentIndex/
+.vs/PracticalApps/DesignTimeBuild/.dtbcache.v2
+Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.assets.cache
+Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.csproj.AssemblyReference.cache
